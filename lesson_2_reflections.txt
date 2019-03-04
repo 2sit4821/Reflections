@@ -2,3 +2,7 @@
 When you make a repository, file .git is created, but 1st commit is not made. You need this repository to make commits in the future. 
 2# How is the staging area different from the working directory and the repository? What value do you think it offers? 
 It is just a temporary area where you can store files. It helps when you want to commit just some files in your repository. 
+3# How can you use the staging area to make sure you have ine commit per logical change?
+I can use diff --stag to make sure that there is only one logical change to commit. If I changed a few files, thanks to staging area I can commit them separately. 
+4# What are the situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help to keep everything organized or test some new fetures or add something that shouldn't refer to the whole program, rather be a optional feature like language or difficulty mode. 
