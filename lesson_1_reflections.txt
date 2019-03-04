@@ -1,0 +1,30 @@
+1# How did viewing a diff between two versions help you spot the bug?
+-It allowed to focus only on the parts that are different - so only the ones that can contain typos or other mistakes. 
+-If old version were working and new one doesn't - only this what is different can contain a mistake.
+ 
+2# How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+-Easy access to the older versions can help me to find quickly mistakes that I made.
+-If one day I decide that version from a few days/weeks ago is actually better than the new one, I can just easily take that previous version. 
+-It is used and required in many companies, so it can let me become a better worker. 
+
+3# What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: 
+-You decide what to save as a commit, how big should the commit be, etc. 
+-As you decide when to save, you have in mind track of the commits you've made. So later you can sort of remind yourself that you have commit before adding a function or something. 
+-Commits are organized.
+Cons:
+-You have to remember to do commits, otherwise there won't be any saved versions. 
+-You need to know how to organize commits. 
+-You spend time doing commits, naming it and writting Readme. 
+
+4# Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat  each file separately?
+In my oppinion it depends on personal needs. Someone may work only on single files and will need only control of a single file, another one may work on some multifile projects (especially web design). 
+
+5# How can you use the commands git log and git diff to view the history of files? 
+git log will show all done commits, dates and comments and then you can just type git diff id1 id2 to check differences between files. 
+
+6# How might using version control make you more confident to make changes that could break something? 
+You can always get back to the version that was working fine and compare files to see what has got broken. 
+
+7# What do you want to try using Git for? 
+Hmm just make it use for a project? 
